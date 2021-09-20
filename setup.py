@@ -8,7 +8,7 @@ User_name = "Gopichandyarra"
 
 setuptools.setup(
     name=f"{Project_name}-{User_name}",
-    version="0.0.1",
+    version="0.0.2",
     author="Gopichandyarra",
     author_email="Gopichandyarra.1@gmail.com",
     description="Its an implimentation of Perceptron",
@@ -28,6 +28,7 @@ setuptools.setup(
     python_requires=">=3.7",
     install_requires=[
         "numpy",
+        "pandas",
         "tqdm"
     ]
 )
